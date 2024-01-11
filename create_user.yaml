@@ -6,5 +6,5 @@
     - name: Create user
       user:
         name: ¨{{ user }}¨
-        uid: ¨{{ uid }}¨
+        uid: ¨{{ uid | int }}¨
         group: ¨{{ group }}¨

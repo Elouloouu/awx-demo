@@ -5,6 +5,6 @@
   tasks:
     - name: Create user
       user:
-        name: {{ user }}
-        uid: {{ uid | int }}
+        name: ¨{{ user }}¨
+        uid: {{ uid | int }}¨
         group: {{ group }}

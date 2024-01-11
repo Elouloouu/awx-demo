@@ -1,0 +1,10 @@
+---
+- name : Create user
+  hosts: all
+
+  tasks:
+    - name: Create user
+      user:
+        name: ¨{{ user }}¨
+        uid: ¨{{ uid }}¨
+        group: ¨{{ group }}¨
